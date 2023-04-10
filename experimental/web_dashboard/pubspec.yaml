@@ -1,0 +1,35 @@
+name: web_dashboard
+description: A dashboard app sample
+version: 1.0.0+1
+publish_to: none
+
+environment:
+  sdk: '>=2.19.5 <4.0.0'
+
+dependencies:
+  charts_flutter: ^0.12.0
+  cloud_firestore: ^4.0.1
+  collection: ^1.16.0
+  cupertino_icons: ^1.0.0
+  firebase_auth: ^4.0.1
+  firebase_core: ^2.0.0
+  flutter:
+    sdk: flutter
+  google_sign_in: ^6.0.0
+  intl: ^0.17.0
+  json_annotation: ^4.5.0
+  path: ^1.8.1
+  provider: ^6.0.0
+  uuid: ^3.0.0
+
+dev_dependencies:
+  analysis_defaults:
+    path: ../../analysis_defaults
+  build_runner: ^2.1.0
+  flutter_test:
+    sdk: flutter
+  grinder: ^0.9.0
+  json_serializable: ^6.2.0
+
+flutter:
+  uses-material-design: true
